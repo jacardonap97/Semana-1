@@ -1,0 +1,61 @@
+~$ mkdir ProyectoCoders
+~$ cd ProyectoCoders/
+~/ProyectoCoders$ mkdir src assets docs tests config backup
+~/ProyectoCoders$ cd src
+~/ProyectoCoders/src$ touch app.txt database.txt functions.txt
+~/ProyectoCoders/src$ cd ..
+~/ProyectoCoders$ ls
+assets  backup  config  docs  src  tests
+~/ProyectoCoders$ cd docs
+~/ProyectoCoders/docs$ touch README.txt
+~/ProyectoCoders/docs$ cat > README.txt << "EOF"
+> Este proyecto se basa en la organización de carpetas para mejor manejo del aplicativo
+> EOF
+~/ProyectoCoders/docs$ cd ..
+~/ProyectoCoders$ cd config
+~/ProyectoCoders/config$ touch settings.txt
+~/ProyectoCoders/config$ cat > settings.txt << "EOF"
+> Mover carpetas
+> Copias archivos
+> Borrar
+> Salir
+> EOF
+~/ProyectoCoders/config$ cd ..
+~/ProyectoCoders$ cd backup
+~/ProyectoCoders/backup$ cd ..
+~/ProyectoCoders$ cp ./config/settings.txt ./backup/
+~/ProyectoCoders$ cd backup/
+~/ProyectoCoders/backup$ ls
+settings.txt
+~/ProyectoCoders/backup$ cd ..
+~/ProyectoCoders$ cd src
+~/ProyectoCoders/src$ ls
+app.txt  database.txt  functions.txt
+~/ProyectoCoders/src$ mkdir database
+~/ProyectoCoders/src$ mv database.txt ./database
+~/ProyectoCoders/src$ ls
+app.txt  database  functions.txt
+~/ProyectoCoders/src$ cd database/
+~/ProyectoCoders/src/database$ ls
+database.txt
+~/ProyectoCoders/src/database$ cd ..
+~/ProyectoCoders/src$ ls
+app.txt  database  functions.txt
+~/ProyectoCoders/src$ cp functions.txt ../backup/
+~/ProyectoCoders/src$ cd ..
+~/ProyectoCoders$ ls
+assets  backup  config  docs  src  tests
+~/ProyectoCoders$ cd backup/
+~/ProyectoCoders/backup$ ls
+functions.txt  settings.txt
+~/ProyectoCoders/backup$ cd ..
+~/ProyectoCoders$ cd src
+~/ProyectoCoders/src$ ls
+app.txt  database  functions.txt
+~/ProyectoCoders/src$ mv app.txt main.txt
+~/ProyectoCoders/src$ ls
+database  functions.txt  main.txt
+~/ProyectoCoders/src$ rm functions.txt
+~/ProyectoCoders/src$ ls
+database  main.txt
+~/ProyectoCoders/src$

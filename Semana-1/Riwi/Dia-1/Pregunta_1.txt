@@ -1,0 +1,1 @@
+Es importante mantener una estructura organizada en el desarrollo de software para manetenr buenas practicas, todo se mantenga organizado, estandarizar el lugar de los archivos y si otro desarrollador requiere ver el proyecto no se pierda en la navegación del mismo

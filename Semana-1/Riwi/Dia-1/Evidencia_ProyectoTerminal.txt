@@ -1,0 +1,42 @@
+~$ ls
+Dia_1  ProyectoCoders
+~$ ls -l
+total 8
+drwxr-xr-x 4 JuAnCaPe JuAnCaPe 4096 Oct 14 12:23 Dia_1
+drwxr-xr-x 8 JuAnCaPe JuAnCaPe 4096 Oct 16 11:50 ProyectoCoders
+~$ ls -a
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .motd_shown  .profile  Dia_1  ProyectoCoders
+~$ mkdir ProyectoTerminal
+~$ cd ProyectoTerminal/
+~/ProyectoTerminal$ mkdir documentos imagenes scripts
+~/ProyectoTerminal$ ls
+documentos  imagenes  scripts
+~/ProyectoTerminal$ cd documentos/
+~/ProyectoTerminal/documentos$ touch notas.txt tareas.txt
+~/ProyectoTerminal/documentos$ ls
+notas.txt  tareas.txt
+~/ProyectoTerminal/documentos$ cd ..
+~/ProyectoTerminal$ cd imagenes/
+~/ProyectoTerminal/imagenes$ touch logo.png
+~/ProyectoTerminal/imagenes$ ls
+logo.png
+~/ProyectoTerminal/imagenes$ mv logo.png ../documentos/
+~/ProyectoTerminal/imagenes$ cd ..
+~/ProyectoTerminal$ cd documentos/
+~/ProyectoTerminal/documentos$ ls
+logo.png  notas.txt  tareas.txt
+~/ProyectoTerminal/documentos$ cp notas.txt notas_backup.txt
+~/ProyectoTerminal/documentos$ ls
+logo.png  notas.txt  notas_backup.txt  tareas.txt
+~/ProyectoTerminal/documentos$ mv tareas.txt pendientes.txt
+~/ProyectoTerminal/documentos$ ls
+logo.png  notas.txt  notas_backup.txt  pendientes.txt
+~/ProyectoTerminal/documentos$ rm logo.png
+~/ProyectoTerminal/documentos$ ls
+notas.txt  notas_backup.txt  pendientes.txt
+~/ProyectoTerminal/documentos$ cd ..
+~/ProyectoTerminal$ ls
+documentos  imagenes  scripts
+~/ProyectoTerminal$ rm -r imagenes/
+~/ProyectoTerminal$ ls
+documentos  scripts
