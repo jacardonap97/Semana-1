@@ -1,0 +1,4 @@
+Nombre: Marta Sanchez.
+Empresa: Riwi.
+Estado: inactivo,
+Correo: marta@example.com

@@ -1,0 +1,4 @@
+Número: 001.
+Cliente: Ana Torres.
+Valor: 150000.
+Estado: pendiente.

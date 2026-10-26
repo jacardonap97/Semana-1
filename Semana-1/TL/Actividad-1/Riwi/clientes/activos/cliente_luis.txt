@@ -1,0 +1,4 @@
+Nombre: Luis Pérez.
+Empresa: Restaurante TokTok.
+Estado: activo.
+Correo: luis@example.com

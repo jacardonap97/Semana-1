@@ -1,0 +1,5 @@
+Se elimino la carpeta entrada que se ecnontraba vacía
+Se movio el archivo del cliente Ana a inactivos y se actualizo su estado
+La factrura 001 fue pagada
+Se actualizo el estado de la factura a Pago
+Se cancelo el proyecto movil y se movio a la carpeta de archivados
